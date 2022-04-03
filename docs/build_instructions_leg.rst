@@ -45,10 +45,6 @@ that all bearings and 3D printed parts will fit into each other with minimal app
 printers of inferior quality often overfill or underfill these features, therefore this modification to 
 the STL files is necessary. STEP files without this feature modification are also provided in the BOM.
 
-TODO: Image of FDM printed parts
-
-TODO: Image of SLS printed parts
-
 3D Printed Parts Preparation
 ----------------------------
 
@@ -64,6 +60,10 @@ Suggestions:
 * Our team recommends printing dummy parts to practise tapping and helicoil insertion, before applying this 
   procedure on the real parts. This is important because an incorrectly inserted helicoil could cause an 
   actuator shell to not close properly.
+
+..image:: leg_images/leg_1.jpg
+..image:: leg_images/leg_5.jpg
+
 
 Motor Shaft Preparation
 -----------------------
@@ -115,6 +115,11 @@ ODRI has the following instructions to prepare the center pulley:
 
 It is important to ensure that the machined timing belt pulley is centered on the 3D-printed part and is vertical. 
 
+..image:: leg_images/roller_1.jpg
+..image:: leg_images/roller_2.jpg
+..image:: leg_images/roller_3.jpg
+..image:: leg_images/roller_4.jpg
+
 Final assembly
 --------------
 
@@ -123,7 +128,17 @@ At this point, the subcomponents have all been assembled and it is possible to p
 ODRI has the following instructions for the final assembly process:
 * `Final Assembly Process <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_actuator_module_assembly.md#details-actuator-module-assembly>`
 
+..image:: leg_images/leg_2.jpg
+..image:: leg_images/leg_7.jpg
+
+..image:: leg_images/leg_3.jpg
+
 The assembly process is similar for both the "hip" and "leg" actuator.
+
+..image:: leg_images/hip_1.jpg
+..image:: leg_images/hip_2.jpg
+..image:: leg_images/hip_3.jpg
+..image:: leg_images/hip_4.jpg
 
 Suggestions: 
 
@@ -148,7 +163,4 @@ Conclusion
 ----------
 
 At the end of this section, there should be a single "hip" actuator, and a single "leg" actuator assembled. Do not 
-attach them together yet, as testing requires that the 
-
-TODO: Image
-
+attach them together yet, as testing requires both actuators to be seperated first.

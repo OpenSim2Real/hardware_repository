@@ -14,14 +14,10 @@ Encoders
 TI boards
 Motors
 
-
 3D printed parts
-
-
 
 Stuff for Central Pivot
 -----------------------
-
 
 wires & connectors
 Encoders

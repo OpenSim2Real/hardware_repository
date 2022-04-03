@@ -60,3 +60,7 @@ Special precautions must be taken to reduce the risk of this happening:
 * Clean the encoder disk with adhesive tape, or a fine brush.
 
 * Relay all handling precautions taken to the relevant machine shop technicians.
+
+..image:: leg_images/encoder_care_1.jpg
+..image:: leg_images/encoder_care_2.jpg
+
