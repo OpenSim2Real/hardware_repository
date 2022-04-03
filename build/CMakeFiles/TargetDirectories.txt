@@ -1,3 +1,0 @@
-/home/dawson/Documents/Repos/hardware_repository/build/CMakeFiles/build-hardware-documentation.dir
-/home/dawson/Documents/Repos/hardware_repository/build/CMakeFiles/edit_cache.dir
-/home/dawson/Documents/Repos/hardware_repository/build/CMakeFiles/rebuild_cache.dir
