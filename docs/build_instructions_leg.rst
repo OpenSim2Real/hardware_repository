@@ -31,8 +31,8 @@ This section provides additional commentary and troubleshooting advice.
 ODRI has the following recommendations for 3D printing: 
 * `3D Printed Parts Details <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_3d_printed_parts.md#details-3d-printed-parts>`
 
-The Robotic Leg requires the following STL parts to be printed. 
-TODO: link to BOM 
+The Robotic Leg requires the following STL parts to be printed, as listed in the BOM:
+:ref`Bill of Materials <https://docs.google.com/spreadsheets/d/1XG-ZolOVECbDxBZboHLyk8DWym51CpaGKmIMvlk1yfg/edit?usp=sharing>`
 
 Our team recommends the SLS process with Nylon 12 material to print all the parts. Our team recommends not 
 using inexpensive FDM printers with the commonly available PLA material - some FDM printers do not have 
@@ -49,7 +49,8 @@ the STL files is necessary. STEP files without this feature modification are als
 ----------------------------
 
 ODRI has the following instructions for 3D printed parts preparation: 
-* `Shell Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_shell_preparation.md#details-shell-preparation>` and `Output Pulley Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_output_pulley_preparation.md#details-output-pulley-preparation>`
+* `Shell Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_shell_preparation.md#details-shell-preparation>`
+* `Output Pulley Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_output_pulley_preparation.md#details-output-pulley-preparation>`
 
 Suggestions:
 * If the 3D printed parts have their features adjusted as above, then the further modification of part dimensions 
@@ -63,6 +64,9 @@ Suggestions:
 
 ..image:: leg_images/leg_1.jpg
 ..image:: leg_images/leg_5.jpg
+
+..image:: leg_images/outputpulley.jpg
+..image:: leg_images/outputpulley_2.jpg
 
 
 Motor Shaft Preparation
@@ -95,10 +99,7 @@ Motor Preparation
 ODRI has the following instructions to prepare the motors:
 * `Motor Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_preparation.md#details-motor-preparation>`
 
-The instructions here are quite straightforward. However, the gold pins at the end should be substituted with 
-these connectors:
-
-TODO: image of what we got
+The instructions here are quite straightforward.
 
 Do not forget that the motor shaft is connected to the motor rotor by 2 threaded inserts. 
 Make sure that those are removed before attempting to separate the motor shaft from the motor rotor, 

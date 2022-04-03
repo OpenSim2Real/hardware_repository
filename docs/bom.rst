@@ -9,25 +9,11 @@ These are the consumables for the Robotic Leg and the Central Pivot.
 Robotic Leg Bill of Materials
 -----------------------------
 
-Wires & Connectors
-Encoders
-TI boards
-Motors
-
-3D printed parts
+The Bill of Materials for the Robotic Leg can be found :ref`here <https://docs.google.com/spreadsheets/d/1XG-ZolOVECbDxBZboHLyk8DWym51CpaGKmIMvlk1yfg/edit?usp=sharing>`
 
 Stuff for Central Pivot
 -----------------------
 
-wires & connectors
-Encoders
+The Bill of Materials for the Central Pivot can be found :ref`here <https://docs.google.com/spreadsheets/d/1XG-ZolOVECbDxBZboHLyk8DWym51CpaGKmIMvlk1yfg/edit?usp=sharing>`
 
-TI boards
-
-Mcmaster carr stuff
-
-3D printed parts
-
-Misc Orders
------------
 

@@ -1,18 +1,6 @@
 Central Pivot Build Instructions
 ================================
 
-Temporary
----------
-
-
-
-..image:: cp_images/cp_complete_1.jpg
-..image:: cp_images/cp_complete_2.jpg
-..image:: cp_images/cp_complete_3.jpg
-..image:: cp_images/cp_complete_4.jpg
-..image:: cp_images/cp_complete_5.jpg
-
-
 Introduction
 ------------
 
@@ -25,10 +13,16 @@ should be done in order, after all parts have arrived.
 Waterjet Parts Preparation
 --------------------------
 
-If that has not been done already, waterjet the required parts in the BOM out of quarter-inch aluminum. Deburr 
-all the edges of the waterjet cut pieces to avoid getting cut by sharp edges.
+If that has not been done already, waterjet the required parts in the BOM out of quarter-inch aluminum:
+- :ref`Axle Holder 1 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/axle-holder-1.dxf>`
+- :ref`Axle Holder 2 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/axle-holder-2.dxf>`
+- :ref`Baseplate <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/baseplate.dxf>`
+- :ref`Collar Mount <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/collar-mount.dxf>`
+- :ref`Electronic Holder <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/electronic-holder.dxf>`
+- :ref`Lower Base <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/lower-base.dxf>`
+- :ref`Upper Base <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/upper-base.dxf>`
 
-TODO: link to DXF files.
+Deburr all the edges of the waterjet cut pieces to avoid getting cut by sharp edges.
 
 In the center hole of the baseplate, drill a countersink for a 1/4" screw. Tap the hole for a 1/4" screw. Test 
 insert a 1/4" screw - a good fit should have the bolt sit flush so that the baseplate could lie flat on a table. 
@@ -42,8 +36,13 @@ Once a good fit on the 1/4" screw has been determined, loctite the bolt onto the
 ---------------------------
 
 If not done already, 3D print the required parts in the BOM. The following parts should result: 
-
-TODO: Link to DXF files, with images
+- :ref`Axle Mount 1 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/axle-mount-1.stl>`
+- :ref`Axle Mount 2 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/axle-mount-2.stl>`
+- :ref`Collar 1 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/collar-1.stl>`
+- :ref`Collar 2 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/collar-2.stl>`
+- :ref`Lower Dowel Mount <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/dowel-mount-lower.stl>`
+- :ref`Upper Dowel Mount <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/dowel-mount-upper.stl>`
+- :ref`TI Launchpad Holder <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/central-pivot/ti-launchpad-holder.stl>`
 
 Shaft-holder Preparation
 ------------------------
@@ -78,9 +77,6 @@ standoff and the baseplate.
 
 Upwards Assembly: Part 1
 ------------------------
-
-The following parts are required for this step:
-TODO: list of parts
 
 Slide the first 3D printed collar piece down the cylindrical standoff on the baseplate, and ensure that it lies 
 flat on the baseplate.
@@ -126,10 +122,6 @@ platform.
 Shaft Preparation
 -----------------
 
-The following parts are required for this step:
-
-TODO: Pictures
-
 Slide the 6mm diamter aluminum shaft into the hole of the cylindrical standoff. Slide the second lowest aluminum 
 plate on top of the 4 threaded standoffs of length 1-1/2". 
 
@@ -149,6 +141,8 @@ cylindrical standoff and confirm a tight fit.
 ..image:: cp_images/cp_stage_9_4.jpg
 
 Finally, cut a segment of length 160mm out of the remaining 6mm diameter shaft.
+
+..image:: cp_images/shaft.jpg
 
 Upwards Assembly: Part 2
 ------------------------
@@ -237,8 +231,24 @@ Wiring the Central Pivot Encoders
 
 Measure out 2 5-wire cables of the 20cm length and cut them there.
 
-At both ends, crimp JST connectors using the following wiring diagram:
-
-TODO: Picture
+At both ends, crimp JST connectors. 
 
 Connect the TI boards to the encoders with these new cables.
+
+..image:: cp_images/cp_complete_1.jpg
+..image:: cp_images/cp_complete_2.jpg
+..image:: cp_images/cp_complete_3.jpg
+..image:: cp_images/cp_complete_4.jpg
+..image:: cp_images/cp_complete_5.jpg
+
+Central Pivot to Robotic Leg Adapter
+------------------------------------
+
+Connect the end of the Central Pivot boom to the adapter piece using epoxy.
+
+..image:: in_images/adapter.jpg
+..image:: in_images/adapter_1.jpg
+..image:: in_images/adapter_2.jpg
+..image:: in_images/adapter_3.jpg
+..image:: in_images/adapter_4.jpg
+..image:: in_images/adapter_5.jpg

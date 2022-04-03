@@ -21,18 +21,18 @@ The Robotic Leg is based on a design provided by ORDI. It is a single leg with 2
 allowing jointed motion within a 2D plane. Actuation of the robotic leg is done with 2 BLDC motors with a large 
 gear reduction, and measurement is done with 2 encoders. 
 
-TODO: image of robotic leg
+..image:: leg_images/leg.png
 
 The Central Pivot is a structure to constrain the motion of the Robotic Leg to be approximately planar. 
 This allows the Robotic Leg to move freely within a 2-dimensional plane without falling on its side 
 without requiring bulky supports, gantry cranes or treadmills.
 
-TODO: image of the central pivot
+..image:: cp_images/cp.png
 
 The Robotic Leg and the Central Pivot can then be tested separately, before being combined into the completed 
 Monopod. The completed Monopod can then be tested as a whole before models are run on it.
 
-TODO: image of completed monopod
+..image:: in_images/in.png
 
 Assembly/Testing Instructions
 -----------------------------

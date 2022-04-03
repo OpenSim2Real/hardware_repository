@@ -1,4 +1,4 @@
-Robotic Leg Testing Procedure & Troublteshooting
+Robotic Leg Testing Procedure & Troubleshooting
 ===============================================
 
 Introduction
@@ -46,6 +46,10 @@ If unusual noises are observed when spinning an actuator, there are several poss
 * Check if there is any plastic or metal debris within the actuator shells. These can be removed with adhesive 
   tape, or with a small vacuum.
 
+..image:: in_images/damage_1.jpg
+..image:: in_images/damage_2.jpg
+..image:: in_images/damage_3.jpg
+
 Handling the encoder disk
 -------------------------
 
@@ -63,4 +67,12 @@ Special precautions must be taken to reduce the risk of this happening:
 
 ..image:: leg_images/encoder_care_1.jpg
 ..image:: leg_images/encoder_care_2.jpg
+
+..image:: leg_images/motor_spacing.jpg
+
+..image:: leg_images/frictioner.jpg
+
+..image:: in_images/full_leg.jpg
+
+
 

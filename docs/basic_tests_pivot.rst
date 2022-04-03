@@ -74,9 +74,7 @@ Run the following to check the encoder position messages sent by the TI LAUNCHXL
 
 Moving the horizontal boom on the Central Pivot should now produce a change in the position values being sent. These 
 values are in bytes and are not decoded yet. To decode them into actual position values, the following script has been
-provided:
-
-TODO: upload script to Github and put git clone here.
+provided: :ref`Desktop-Interactive-Can-Controller <https://github.com/OpenSim2Real/desktop-interactive-can-controller>`
 
 After configuring the appropriate port numbers in the script, the code should read out the encoder positions of the 
 Central Pivot. A good check here is to check that the encoder code wheels are firmly attached to their shafts, and 
