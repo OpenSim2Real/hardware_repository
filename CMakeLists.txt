@@ -18,7 +18,7 @@ add_custom_target(build-hardware-documentation ALL DEPENDS dummy-target
   COMMENT "Moving docs into build directory ${CMAKE_CURRENT_BINARY_DIR}..."
 )
 
-# install(DIRECTORY docs DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY docs DESTINATION share/${PROJECT_NAME})
 
 
 
