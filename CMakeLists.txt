@@ -21,6 +21,7 @@ add_custom_target(build-hardware-documentation ALL
   ${CMAKE_CURRENT_SOURCE_DIR}/docs ${CMAKE_CURRENT_BINARY_DIR}/docs
   COMMENT "Moving docs into build directory ${CMAKE_CURRENT_BINARY_DIR}..."
 )
+add_dependencies(${PROJECT_NAME} build-hardware-documentation)
 
 install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/docs" DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
 # install()
