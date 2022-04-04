@@ -24,7 +24,8 @@ add_custom_target(build-hardware-documentation ALL
 
 message(STATUS "Cmake install to: ${CMAKE_INSTALL_PREFIX}/docs")
 
-install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/docs" DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
+# install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/docs" DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
+install()
 
 # install(DIRECTORY "./docs")
 
