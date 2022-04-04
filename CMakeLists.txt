@@ -10,9 +10,7 @@ if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
 endif()
 
-add_executable(dummy-target "${CMAKE_CURRENT_SOURCE_DIR}/cmake/dummy.cpp")
-
-add_custom_target(build-hardware-documentation ALL DEPENDS dummy-target
+add_custom_target(build-hardware-documentation ALL
   COMMAND ${CMAKE_COMMAND} -E copy_directory
   ${CMAKE_CURRENT_SOURCE_DIR}/docs ${CMAKE_CURRENT_BINARY_DIR}/docs
   COMMENT "Moving docs into build directory ${CMAKE_CURRENT_BINARY_DIR}..."
