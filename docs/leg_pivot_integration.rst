@@ -1,7 +1,8 @@
 Central Pivot - Robotic Leg Integration
 =======================================
 
-
+Introduction
+------------
 
 After the Central Pivot and Robotic Leg subassemblies have been assembled and tested, integration of the 
 Central Pivot with the Robotic Leg to become the full Monopod. This section provides 
@@ -30,14 +31,14 @@ Instructions:
 7. Identify which wires in the bundle correspond to which wires on the start and end, with a multimeter. Label the 
    motor phases as A, B, and C.
 
-..image:: in_images/3phase_1.jpg
-..image:: in_images/3phase_2.jpg
-..image:: in_images/3phase_3.jpg
-..image:: in_images/3phase_4.jpg
-..image:: in_images/3phase_5.jpg
-..image:: in_images/3phase_6.jpg
-..image:: in_images/3phase_7.jpg
-..image:: in_images/3phase_8.jpg
+..figure:: in_images/3phase_1.jpg
+..figure:: in_images/3phase_2.jpg
+..figure:: in_images/3phase_3.jpg
+..figure:: in_images/3phase_4.jpg
+..figure:: in_images/3phase_5.jpg
+..figure:: in_images/3phase_6.jpg
+..figure:: in_images/3phase_7.jpg
+..figure:: in_images/3phase_8.jpg
 
 Products for this step:
 * 2pc, 2m lengths of 3-wire bundles of black cable, covered in plastic sleeving, to transmit 3-phase motor current from 
@@ -64,13 +65,13 @@ Instructions:
 7. On the other end, group the 10 wires into the encoder groupings from the TI board end. Use heat shrink to physically
    split the 2 groups of wires.
 
-..image:: in_images/mm.jpg
-..image:: in_images/mm_cut.jpg
+..figure:: in_images/mm.jpg
+..figure:: in_images/mm_cut.jpg
 
-..image:: in_images/encoderwire_1.jpg
-..image:: in_images/encoderwire_2.jpg
-..image:: in_images/encoderwire_3.jpg
-..image:: in_images/encoderwire_4.jpg
+..figure:: in_images/encoderwire_1.jpg
+..figure:: in_images/encoderwire_2.jpg
+..figure:: in_images/encoderwire_3.jpg
+..figure:: in_images/encoderwire_4.jpg
 
 Products for this step:
 * 1pc, long cable with 10 exposed wires on both ends, to transmit encoder signals from the Robotic Leg, across the long 
@@ -101,8 +102,8 @@ Instructions to connect motor phase wires:
    Leg with expandable plastic sleeving for additional protection. 
 2. Connect the Robotic Leg motor phase wires with the long motor phase cables.
 
-..image:: in_images/wiring_1.jpg
-..image:: in_images/wiring_2.jpg
+..figure:: in_images/wiring_1.jpg
+..figure:: in_images/wiring_2.jpg
 
 Products for this step:
 * 1pc, Robotic Leg with extended motor phase and encoder cables. 
@@ -124,7 +125,7 @@ Instructions:
 emerging from the Robotic Leg are threaded through the boom.
 5. Secure the TI boards onto a 3D-printed mount on the Central Pivot.
 
-Products for thsi step:
+Products for this step:
 * 1pc, Monopod assembly without power connections or CAN connection
 
 Final Connections
@@ -144,34 +145,34 @@ Instructions to power the Central Pivot:
    Ground pins on the TI LAUNCHXL board. This can be done by connecting the 3.3V pins of both TI LAUNCHXL boards 
    together, and the Ground pins of both TI LAUNCHXL boards together, with individual wires.
 
-..image:: in_images/power_10.jpg
-..image:: in_images/power_11.jpg
-..image:: in_images/power_12.jpg
-..image:: in_images/power_13.jpg
-..image:: in_images/power_2.jpg
-..image:: in_images/power_3.jpg
-..image:: in_images/power_4.jpg
-..image:: in_images/power_5.jpg
-..image:: in_images/power_6.jpg
-..image:: in_images/power_7.jpg
-..image:: in_images/power_8.jpg
-..image:: in_images/power_9.jpg
-..image:: in_images/power_1.jpg
+..figure:: in_images/power_10.jpg
+..figure:: in_images/power_11.jpg
+..figure:: in_images/power_12.jpg
+..figure:: in_images/power_13.jpg
+..figure:: in_images/power_2.jpg
+..figure:: in_images/power_3.jpg
+..figure:: in_images/power_4.jpg
+..figure:: in_images/power_5.jpg
+..figure:: in_images/power_6.jpg
+..figure:: in_images/power_7.jpg
+..figure:: in_images/power_8.jpg
+..figure:: in_images/power_9.jpg
+..figure:: in_images/power_1.jpg
 
 Instructions to connect TI LAUNCXL boards to CAN:
 1. The TI LAUNCHXL boards have header pins for CAN. A Y-shaped connector between the TI LAUNCHXL boards, and a 
    CAN-to-USB device can be made with 3-pin cabling.
 2. The CAN-to-USB device is then connected to a computer, completing the setup of the Monopod.
 
-..image:: in_images/can1.jpg
-..image:: in_images/can2.jpg
-..image:: in_images/can3.jpg
+..figure:: in_images/can1.jpg
+..figure:: in_images/can2.jpg
+..figure:: in_images/can3.jpg
 
 Products for this step:
 * 1pc, Monopod assembly with power and CAN connections.
 
-..image:: in_images/conn1.jpg
-..image:: in_images/conn2.jpg
-..image:: in_images/conn3.jpg
-..image:: in_images/conn4.jpg
-..image:: in_images/conn5.jpg
+..figure:: in_images/conn1.jpg
+..figure:: in_images/conn2.jpg
+..figure:: in_images/conn3.jpg
+..figure:: in_images/conn4.jpg
+..figure:: in_images/conn5.jpg

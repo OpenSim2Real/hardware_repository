@@ -8,6 +8,8 @@ The Robotic Leg is part of the complete Monopod, and the build instructions foll
 the build instructions provided by the Open Dynamic Robot Initiative. However, several clarifying 
 instructions have been added here to aid construction.
 
+Before starting assembly, ensure that all parts in the Bill of Materials for the Robotic Leg have arrived.
+
 About the Open Dynamic Robot Initiative
 ---------------------------------------
 
@@ -21,18 +23,33 @@ from the base design were made to facilitate connection with the Central Pivot a
 assembly instructions remain unchanged. 
 
 The ODRI-provided instructions are found here: 
-* `ODRI Hardware Repository <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware>`.
+* :ref`ODRI Hardware Repository <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware>`.
 
 This section provides additional commentary and troubleshooting advice.
 
 3D Printing Instructions
 ------------------------
 
-ODRI has the following recommendations for 3D printing: 
-* `3D Printed Parts Details <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_3d_printed_parts.md#details-3d-printed-parts>`
+The Robotic Leg requires the following STL parts to be printed:
+* 1pc :ref`Lower Leg <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/lower-leg/lower-leg.stl>`
+* 1pc :ref`Static Hip Base Shell <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/static-hip/static_hip_base_shell.stl>`
+* 1pc :ref`Static Hip Cover Shell <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/static-hip/static_hip_cover_shell.stl>`
+* 1pc :ref`Upper Leg Base Shell <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/upper-leg/upper_leg_200mm_base.stl>`
+* 1pc :ref`Upper Leg Cover Shell <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/upper-leg/upper_leg_200mm_cover.stl>`
+* 2pc :ref`Codewheel Mount <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/static-hip/encoder_codewheel_kit_mount.stl>`
+* 2pc :ref`Output Pulley <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/static-hip/transmission_pulley_at3_t30_output.stl>`
+* 2pc :ref`Center Pulley <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/static-hip/transmission_pulley_at3_t30_center.stl>`
+* 4pc :ref`Tensioner Roller <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/upper-leg/transmission_belt_tensioner_roller.stl>`
+* 1pc :ref`Centering Tool 1 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/centering-tool-1.stl>`
+* 1pc :ref`Centering Tool 2 <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/centering-tool-2.stl>`
+* 1pc :ref`Pulley Assembly Tool <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/pulley-assembly-tool.STL>`
+* 1pc :ref`Pulley Protection Tool <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/pulley-protection-tool.stl>`
+* 1pc :ref`Code Wheel Bonding Tool <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/tool_code_wheel_bonding.STL>`
+* 1pc :ref`Motor Shaft Extraction Tool <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/tool_motor_shaft_extraction.STL>`
+* 1pc :ref`Motor Shaft Bonding Tool <https://github.com/OpenSim2Real/hardware_repository/blob/main/cad/misc/tool_motor_shaft_pulley_bonding.STL>`
 
-The Robotic Leg requires the following STL parts to be printed, as listed in the BOM:
-:ref`Bill of Materials <https://docs.google.com/spreadsheets/d/1XG-ZolOVECbDxBZboHLyk8DWym51CpaGKmIMvlk1yfg/edit?usp=sharing>`
+ODRI has the following recommendations for 3D printing. Adapt them as necessary for the parts we have.
+* :ref`3D Printed Parts Details <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_3d_printed_parts.md#details-3d-printed-parts>`
 
 Our team recommends the SLS process with Nylon 12 material to print all the parts. Our team recommends not 
 using inexpensive FDM printers with the commonly available PLA material - some FDM printers do not have 
@@ -48,9 +65,9 @@ the STL files is necessary. STEP files without this feature modification are als
 3D Printed Parts Preparation
 ----------------------------
 
-ODRI has the following instructions for 3D printed parts preparation: 
-* `Shell Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_shell_preparation.md#details-shell-preparation>`
-* `Output Pulley Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_output_pulley_preparation.md#details-output-pulley-preparation>`
+ODRI has the following instructions for 3D printed parts preparation. Adapt them as necessary for the parts we have.
+* :ref`Shell Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_shell_preparation.md#details-shell-preparation>`
+* :ref`Output Pulley Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_output_pulley_preparation.md#details-output-pulley-preparation>`
 
 Suggestions:
 * If the 3D printed parts have their features adjusted as above, then the further modification of part dimensions 
@@ -62,20 +79,19 @@ Suggestions:
   procedure on the real parts. This is important because an incorrectly inserted helicoil could cause an 
   actuator shell to not close properly.
 
-..image:: leg_images/leg_1.jpg
-..image:: leg_images/leg_5.jpg
+..figure:: leg_images/leg_1.jpg
+..figure:: leg_images/leg_5.jpg
 
-..image:: leg_images/outputpulley.jpg
-..image:: leg_images/outputpulley_2.jpg
-
+..figure:: leg_images/outputpulley.jpg
+..figure:: leg_images/outputpulley_2.jpg
 
 Motor Shaft Preparation
 -----------------------
 
-ODRI has the following instructions for the motor shaft preparation: 
-* `Encoder Disassembly <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_encoder_kit_disassembly.md>`: Process to disassemble an encoder to get the encoder code wheel and the encoder electronics.
-* `Machined Parts Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_machined_parts.md#details-machined-parts>`: Instructions to get the necessary machined parts.
-* `Motor Shaft Preparation < https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md#details-motor-shaft-preparation>`: Process to create a motor shaft assembly with the encoder code wheel
+ODRI has the following instructions for the motor shaft preparation.
+* :ref`Encoder Disassembly <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_encoder_kit_disassembly.md>`: Process to disassemble an encoder to get the encoder code wheel and the encoder electronics.
+* :ref`Machined Parts Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_machined_parts.md#details-machined-parts>`: Instructions to get the necessary machined parts.
+* :ref`Motor Shaft Preparation < https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md#details-motor-shaft-preparation>`: Process to create a motor shaft assembly with the encoder code wheel
 
 Suggestions:
 * The motor shaft preparation steps are quite difficult to follow. The machined timing belt pulleys are difficult 
@@ -87,26 +103,24 @@ Suggestions:
 Encoder Preparation
 -------------------
 
-ODRI has the following instructions to prepare the encoders:
-* `Encoder Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_encoder_preparation.md#details-encoder-preparation>`
+ODRI has the following instructions to prepare the encoders. 
+* :ref`Encoder Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_encoder_preparation.md#details-encoder-preparation>`
 
 Suggestions:
-* `As the wires will be connected to the 
+* Make the wires longer than specified in the ODRI instructions, to allow for more room for wire twisting.
 
 Motor Preparation
 -----------------
 
-ODRI has the following instructions to prepare the motors:
+ODRI has the following instructions to prepare the motors.
 * `Motor Preparation <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_preparation.md#details-motor-preparation>`
 
-The instructions here are quite straightforward.
-
-Do not forget that the motor shaft is connected to the motor rotor by 2 threaded inserts. 
-Make sure that those are removed before attempting to separate the motor shaft from the motor rotor, 
-otherwise you risk shearing parts of the threaded insert, or the motor shaft.
-
-Remember that when the BLDC motors were bought from the store, they came with a brass spacer. 
-Make sure to keep these spacers safely, they are needed in the leg actuator assembly process!
+Suggestions: 
+* Do not forget that the motor shaft is connected to the motor rotor by 2 threaded inserts. 
+  Make sure that those are removed before attempting to separate the motor shaft from the motor rotor, 
+  otherwise you risk shearing parts of the threaded insert, or the motor shaft.
+* Remember that when the BLDC motors were bought from the store, they came with a brass spacer. 
+  Make sure to keep these spacers safely, they are needed in the leg actuator assembly process!
 
 Center Pulley Preparation
 -------------------------
@@ -114,32 +128,36 @@ Center Pulley Preparation
 ODRI has the following instructions to prepare the center pulley:
 * `Center Pulley <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_center_pulley_preparation.md#details-center-pulley-preparation>`
 
-It is important to ensure that the machined timing belt pulley is centered on the 3D-printed part and is vertical. 
+Suggestions: 
+* It is important to ensure that the machined timing belt pulley is centered on the 3D-printed part and is vertical. 
+  Otherwise, the timing belt will not mesh properly with it. We recommend filing down the side of the machined pulley 
+  that will be pushed into the 3D-printed part, to reduce the amount of force needed to push the two parts together 
+  using an arbor press.
 
-..image:: leg_images/roller_1.jpg
-..image:: leg_images/roller_2.jpg
-..image:: leg_images/roller_3.jpg
-..image:: leg_images/roller_4.jpg
+..figure:: leg_images/roller_1.jpg
+..figure:: leg_images/roller_2.jpg
+..figure:: leg_images/roller_3.jpg
+..figure:: leg_images/roller_4.jpg
 
 Final assembly
 --------------
 
 At this point, the subcomponents have all been assembled and it is possible to put together the actuator. 
 
-ODRI has the following instructions for the final assembly process:
+ODRI has the following instructions for the final assembly process.
 * `Final Assembly Process <https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_actuator_module_assembly.md#details-actuator-module-assembly>`
 
-..image:: leg_images/leg_2.jpg
-..image:: leg_images/leg_7.jpg
+..figure:: leg_images/leg_2.jpg
+..figure:: leg_images/leg_7.jpg
 
-..image:: leg_images/leg_3.jpg
+..figure:: leg_images/leg_3.jpg
 
 The assembly process is similar for both the "hip" and "leg" actuator.
 
-..image:: leg_images/hip_1.jpg
-..image:: leg_images/hip_2.jpg
-..image:: leg_images/hip_3.jpg
-..image:: leg_images/hip_4.jpg
+..figure:: leg_images/hip_1.jpg
+..figure:: leg_images/hip_2.jpg
+..figure:: leg_images/hip_3.jpg
+..figure:: leg_images/hip_4.jpg
 
 Suggestions: 
 
