@@ -46,9 +46,9 @@ If unusual noises are observed when spinning an actuator, there are several poss
 * Check if there is any plastic or metal debris within the actuator shells. These can be removed with adhesive 
   tape, or with a small vacuum.
 
-..image:: in_images/damage_1.jpg
-..image:: in_images/damage_2.jpg
-..image:: in_images/damage_3.jpg
+..figure:: in_images/damage_1.jpg
+..figure:: in_images/damage_2.jpg
+..figure:: in_images/damage_3.jpg
 
 Handling the encoder disk
 -------------------------
@@ -65,14 +65,14 @@ Special precautions must be taken to reduce the risk of this happening:
 
 * Relay all handling precautions taken to the relevant machine shop technicians.
 
-..image:: leg_images/encoder_care_1.jpg
-..image:: leg_images/encoder_care_2.jpg
+..figure:: leg_images/encoder_care_1.jpg
+..figure:: leg_images/encoder_care_2.jpg
 
-..image:: leg_images/motor_spacing.jpg
+..figure:: leg_images/motor_spacing.jpg
 
-..image:: leg_images/frictioner.jpg
+..figure:: leg_images/frictioner.jpg
 
-..image:: in_images/full_leg.jpg
+..figure:: in_images/full_leg.jpg
 
 
 

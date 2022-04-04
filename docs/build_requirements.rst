@@ -34,38 +34,38 @@ The following mechanical tools are required:
 * 3D printer (recommended)
 * Waterjet cutter (recommended)
 
-..image:: tools_images/drill.jpg
-..image:: tools_images/drillbits.jpg
-..image:: tools_images/ducttape.jpg
-..image:: tools_images/electrical_tape.jpg
-..image:: tools_images/epoxy.jpg
-..image:: tools_images/files.jpg
-..image:: tools_images/gluegun.jpg
-..image:: tools_images/handdrill.jpg
-..image:: tools_images/heatgun.jpg
-..image:: tools_images/helicoilinsertion.jpg
-..image:: tools_images/hex.jpg
-..image:: tools_images/jumper.jpg
-..image:: tools_images/maskingtape.jpg
-..image:: tools_images/ruler.jpg
-..image:: tools_images/scissors.jpg
-..image:: tools_images/screwdriver.jpg
-..image:: tools_images/sheath.jpg
-..image:: tools_images/solderhand.jpg
-..image:: tools_images/solderstation.jpg
-..image:: tools_images/tabletopvise.jpg
-..image:: tools_images/taps.jpg
-..image:: tools_images/tweezers.jpg
-..image:: tools_images/tweezers_2.jpg
-..image:: tools_images/vise.jpg
-..image:: tools_images/wrench_1.jpg
-..image:: tools_images/wrench_2.jpg
-..image:: tools_images/wrench_3.jpg
-..image:: tools_images/3dprinter_2.jpg
-..image:: tools_images/3dprinter_3.jpg
-..image:: tools_images/arborpress.jpg
-..image:: tools_images/blackwire.jpg
-..image:: tools_images/caliper.jpg
+..figure:: tools_images/drill.jpg
+..figure:: tools_images/drillbits.jpg
+..figure:: tools_images/ducttape.jpg
+..figure:: tools_images/electrical_tape.jpg
+..figure:: tools_images/epoxy.jpg
+..figure:: tools_images/files.jpg
+..figure:: tools_images/gluegun.jpg
+..figure:: tools_images/handdrill.jpg
+..figure:: tools_images/heatgun.jpg
+..figure:: tools_images/helicoilinsertion.jpg
+..figure:: tools_images/hex.jpg
+..figure:: tools_images/jumper.jpg
+..figure:: tools_images/maskingtape.jpg
+..figure:: tools_images/ruler.jpg
+..figure:: tools_images/scissors.jpg
+..figure:: tools_images/screwdriver.jpg
+..figure:: tools_images/sheath.jpg
+..figure:: tools_images/solderhand.jpg
+..figure:: tools_images/solderstation.jpg
+..figure:: tools_images/tabletopvise.jpg
+..figure:: tools_images/taps.jpg
+..figure:: tools_images/tweezers.jpg
+..figure:: tools_images/tweezers_2.jpg
+..figure:: tools_images/vise.jpg
+..figure:: tools_images/wrench_1.jpg
+..figure:: tools_images/wrench_2.jpg
+..figure:: tools_images/wrench_3.jpg
+..figure:: tools_images/3dprinter_2.jpg
+..figure:: tools_images/3dprinter_3.jpg
+..figure:: tools_images/arborpress.jpg
+..figure:: tools_images/blackwire.jpg
+..figure:: tools_images/caliper.jpg
 
 If the encoder code wheels require rework(see :ref`Robotic Leg Build Instructions <build_instructions_leg>`), 
 then access to a well-equipped machine shop is required. This will be explained in greater detail in a later section, 
@@ -82,10 +82,10 @@ The following electrical tools are required:
 * Wire Cutter
 * JST Crimper
 
-..image:: tools_images/solder.jpg
-..image:: tools_images/stripper.jpg
-..image:: tools_images/heatshrink.jpg
-..image:: tools_images/wire_snips.jpg
+..figure:: tools_images/solder.jpg
+..figure:: tools_images/stripper.jpg
+..figure:: tools_images/heatshrink.jpg
+..figure:: tools_images/wire_snips.jpg
 
 Skill Requirements
 ------------------
@@ -105,10 +105,11 @@ The following electrical skills are required to assemble the physical robot:
 
 The following software skills are required to setup the code infrastructure for the physical robot:
 - Python, C, C++ programming languages
-- Familiarity with Windows and Linux OS
+- Familiarity with Windows and Linux operating systems. A dual-booted laptop with Windows 10/11 and Ubuntu 18.04/20.04 
+  or PopOS, a decent processor and at least 8GB of RAM is recommended. 
 - Git version control
 - Embedded software development
-- Familiarity with Field Oriented Control
+- Familiarity with Field Oriented Control for motors.
 
 This build assumes the availability of computers running Ubuntu 20.04 and Windows 10 operating systems. 
 Learning resources to gain familiarity with the necessary toolchains and techniques are in 
