@@ -112,15 +112,17 @@ readily available.
 
 		  Calipers
 
-   * - Kapton Tape, as thin as possible
+   * - .. figure:: tools_images/kapton.jpg
 
-     - Handsaw
+          Kapton Tape, as thin as possible
 
-     - Masking Tape
+       .. figure:: tools_images/masking.jpg
+
+          Masking Tape
 
    * - Waterjet Cutter (recommended)
 
-     -
+     - Handsaw
 
      -
 
@@ -128,7 +130,7 @@ readily available.
 
    * - .. figure:: tools_images/solder.jpg
         
-          Solder
+          Solder, as thin as possible
 
      - .. figure:: tools_images/stripper.jpg
    
@@ -193,4 +195,4 @@ The following software skills are required to setup the code infrastructure for 
 
 This build assumes the availability of computers running Ubuntu 20.04 and Windows 10 operating systems.
 Learning resources to gain familiarity with the necessary toolchains and techniques are in
-:ref:`Further Reading & Resources <monopod_resources>`.
+:ref:`Further Reading & Resources <../monopod_resources>`.

@@ -1,7 +1,7 @@
 .. _leg_pivot_integration:
 
-Central Pivot - Robotic Leg Integration
-=======================================
+Monopod Integration
+===================
 
 Introduction
 ------------
@@ -155,7 +155,10 @@ Instructions to connect encoder wires:
    Apply heat shrink on exposed cable for strain relief, and cover the encoder cables outside the encoder wires with
    expandable plastic sleeving for additional protection.
 
-TODO: An image of the connected encoder wires
+.. figure:: in_images/encoderwire_5.jpg
+
+   Encoder wires on Robotic Leg connected to the long 10-pin cable. Make sure to cover all wires with a large heat shrink
+   piece for protection.
 
 Instructions to connect motor phase wires:
 

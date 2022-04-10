@@ -74,7 +74,9 @@ This guide comprises of the following sections in order:
   physical/basic_tests_leg
   physical/build_instructions_pivot
   physical/basic_tests_pivot
+  physical/leg_pivot_integration
+  physical/leg_pivot_integration_testing
+  
   firmware/monopod_firmware
-  firmware/leg_pivot_integration
-  firmware/leg_pivot_integration_testing
+
   monopod_resources

@@ -1,7 +1,7 @@
 .. _basic_tests_leg:
 
-Robotic Leg Testing Procedure & Troubleshooting
-===============================================
+Robotic Leg Testing Procedure
+=============================
 
 Introduction
 ------------

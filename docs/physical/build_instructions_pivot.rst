@@ -12,6 +12,8 @@ should be done in order, after all parts have arrived.
 
 .. figure:: cp_images/cp_material_2.jpg
 
+   Consumables for the Central Pivot.
+
 Waterjet Parts Preparation
 --------------------------
 
@@ -418,8 +420,6 @@ that it remains centered.
 - 6mm screw collar
 - 6mm screw collar
 - Axle Mount
-
-TODO: image of this
 
 .. figure:: cp_images/cp_stage_13.jpg
    
