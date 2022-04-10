@@ -68,8 +68,9 @@ Structure the workspace directory as follows:
 
 Finally, apply the motorware patch. Go into the motorware directory, and run the following command.
 
-.. code: bash
+.. code:: bash
 
+  cd workspace/motorware
   patch -p1 < ../amd_motorware_ext/motorware_patch/motorware_1_01_00_18_patch1
 
 The computer is now set up for firmware development, compilation and flashing.
@@ -79,7 +80,7 @@ instructions are based off on, are found here:
 `Old Instructions <https://open-dynamic-robot-initiative.github.io/mw_dual_motor_torque_ctrl/build_instructions.html>`_
 
 The new instructions published by ODRI are found here:
-'New Instructions <https://open-dynamic-robot-initiative.github.io/udriver_firmware/build_instructions.html>`_
+`New Instructions <https://open-dynamic-robot-initiative.github.io/udriver_firmware/build_instructions.html>`_
 
 Note that there are minor differences between the instructions provided by ODRI, and the instructions provided below.
 For building and flashing firmware, it is recommended to use the OpenSim2Real project as a first resource, and the
@@ -96,7 +97,7 @@ To import a project into your workspace,
 - Open TI CCS.
 - On the top bar, select the "Projects" icon, and in the drop down menu, select the option to "Import Project".
 - A new window will open, and there is an option to browse your filesystem. Navigate to the location of the projects,
-  the -mw_dual_motor_torque_ctrl-, or -encoder_measurement-.
+  the **mw_dual_motor_torque_ctrl**, or **encoder_measurement**.
 - TI CCS will detect that these directories contain a CCS project, and will give you the option to import the project.
   Ensure that CCS does not copy the project into your current workspace. This is because the -mw_dual_motor_torque_ctrl-
   and -encoder_measurement- projects both contain relative directory links to the motorware folders, and arbitrarily
@@ -136,10 +137,12 @@ TODO: instructions on how to test connection
 The TI LAUNCHXL microcontroller board has several jumper pins and switches, which must be set correctly for the board
 to be programmed:
 
-- JP1 and JP2 connects the power domain of the microcontroller to the power supplied by USB cable. When flashing, keep JP1 and JP2 on.
-- JP6 and JP7 changes which pins the USB/UART peripherals of the microcontroller are connected to. We kept JP6 and JP7
+- **JP1** and **JP2** connects the power domain of the microcontroller to the power supplied by USB cable. 
+  When flashing, keep JP1 and JP2 on.
+- **JP6** and **JP7** changes which pins the USB/UART peripherals of the microcontroller are connected to. We kept JP6 and JP7
   both on, disabling the USB/UART peripheral. This is because the firmware we will be running do not need this peripheral.
-- JP3, JP4, JP5 all do miscellaneous things with the power domain of the microcontroller. We kept JP3, JP4 and JP5 all off.
+- **JP3**, **JP4**, **JP5** all do miscellaneous things with the power domain of the microcontroller. 
+  We kept JP3, JP4 and JP5 all off.
 
 Additionally, there are 3 up-down switches which determine where the microcontroller will boot a program from upon
 power-on.
@@ -147,6 +150,7 @@ power-on.
 - To allow TI CCS to program the microcontroller, set the switches to S1 = High, S2 = High, S3 = High. This puts the
   boot sequence of the microcontroller under the control of the XDS100v2 debug probe integrated into the microcontroller
   board, allowing for program flashing and debug capabilities.
+
 - To automatically run the program, set the switches to S1 = High, S2 = High, S3 = Low. This sets the microcontroller
   to its default behavior of booting a program from flash memory. Note that the microcontroller is inaccessible to TI
   CCS or the debug probe at this state.
@@ -166,7 +170,7 @@ Instructions for Robotic Leg Firmware
 
 To flash the firmware for the Robotic Leg,
 
-1. Open the -mw_dual_motor_torque_ctrl- firmware on TI CCS.
+1. Open the **mw_dual_motor_torque_ctrl** firmware on TI CCS.
 2. Clean the project, and do a build, with the build settings set to "Release" mode.
 3. Debug the project, as shown above. The debugger can be terminated right after the debugger has finished loading.
 4. Flash the project onto the microcontroller, as shown above.
@@ -176,7 +180,7 @@ Instructions for Central Pivot Firmware
 
 To flash the firmware for the Central Pivot,
 
-1. Open the -encoder_measurement- firmware on TI CCS.
+1. Open the **encoder_measurement** firmware on TI CCS.
 2. Clean the project, and do a build, with the build settings set to "Release" mode.
 3. Debug the project, as shown above. The debugger can be terminated right after the debugger has finished loading.
 4. Flash the project onto the microcontroller, as shown above.
@@ -185,4 +189,4 @@ Further information
 -------------------
 
 Further resources about the microcontrollers and the build system can be found in the
-:ref`Further Reading & Resources <monopod_resources>` page.
+:ref:`Further Reading & Resources <monopod_resources>` page.
