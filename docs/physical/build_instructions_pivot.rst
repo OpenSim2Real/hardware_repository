@@ -607,4 +607,8 @@ Connect the Central Pivot TI LAUNCHXL board to the Central Pivot encoders with t
    * - 1pc 
      - Central Pivot Assembly(Complete)
 
+Conclusion
+----------
+
+The assembly of the Central Pivot is now complete, and can be tested.
 
