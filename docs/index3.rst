@@ -81,3 +81,10 @@ Conclusion
 
 Our team has decided to build a 2D Hopper and a corresponding constraining device for the 2D Hopper.
 
+.. toctree::
+  :hidden:
+  :caption: Monopod Design
+
+  design/hardware_design
+  design/firmware_design
+  design/electrical_design

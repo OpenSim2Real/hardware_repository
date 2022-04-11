@@ -73,10 +73,6 @@ This guide comprises of the following sections in order:
 - :ref:`Further Reading & Resources <monopod_resources>`: Further readings and relevant resources to aid
   the assembly procedure.
 
-Monopod Design
---------------
-
-This section describes the 
 
 .. toctree::
   :hidden:
@@ -90,7 +86,4 @@ This section describes the
   physical/basic_tests_pivot
   physical/leg_pivot_integration
   physical/leg_pivot_integration_testing
-  
-  firmware/monopod_firmware
-
   monopod_resources
