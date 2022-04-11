@@ -10,7 +10,7 @@ This section describes the process of assembling and testing our hardware platfo
 
 A major component of the OpenSim2Real project is the development of a physical, hardware platform so that
 models running in simulation can be applied to the physical world. The hardware platform, called the Monopod,
-has been completely based around prior work by the `Open Dynamic Robot Initiative <https://open-dynamic-robot-initiative.github.io/>`_(ODRI).
+has been completely based around prior work by the `Open Dynamic Robot Initiative <https://open-dynamic-robot-initiative.github.io/>`_ (ODRI).
 
 The basic flow of information for the monopod is shown by the system diagram below.
 
