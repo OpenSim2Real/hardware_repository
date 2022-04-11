@@ -35,7 +35,9 @@ surface. While compact, this setup is problematic for several reasons:
 - A treadmill design is not that common in research, when compared to a circular planarizer, or a Central Pivot. This 
   makes it more difficult to gauge precedents in research.
 
-TODO: image of a gantry crane with source
+.. figure:: design_images/treadmill.PNG
+
+   ARL-Monopod II standing on a treadmill. [1]_
 
 Design Choices: Vertical Test Stand
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +45,9 @@ Design Choices: Vertical Test Stand
 A vertical test stand effectively constrains a 2D Robotic Leg to a single dimension, allowing it to move upwards. A 
 design for a vertical test stand is already provided by ODRI, as shown here
 
-TODO: vertical test stand with source
+.. figure:: design_images/teststand.PNG
+
+   2D robotic leg standing on a teststand. [2]_
 
 However, a vertical test stand overly constrains the robotic leg, and prevents it from exhibiting interesting behavior. 
 The test stand is only good for measuring the torque applied by the robotic leg actuators, and to attempt simple 
@@ -59,7 +63,13 @@ line.
 This design pattern has a lot of precedent in research, and it is simple and inexpensive to implement. Therefore, we 
 decided to design an open-source Central Pivot.
 
-TODO: image of central pivots
+.. figure:: design_images/planarizer.PNG
+
+   An example of a planarizer used to constrain a small robotic leg. [3]_
+
+.. figure:: design_images/planarizer_2.PNG
+
+   Another example of a planarizer used to constrain a robotic leg. [4]_
 
 3 major factors complicate the design of the Central Pivot:
 
@@ -75,18 +85,29 @@ TODO: image of central pivots
   without deformation. Any deformation in the central pivot may result in the encoders losing count of the robotic leg 
   position, affecting the observability of the system.
 
-TODO: picture of radial scrubbing
+.. figure:: angles.PNG
 
-TODO: picture of encoder measurement
+   There must be encoders to measure both vertical and horizontal motion of the Robotic Leg mounted on the planarizer boom.
 
-TODO: picture of pushing and twisting loads
+.. figure:: radialscrubbing.PNG
+
+   "Radial scrubbing" is caused when the robotic leg extends and contracts at the end of a circular planarizer. As shown, 
+   increasing the length of the planarizer boom reduces the amount of radial scrubbing experienced.
+
+.. figure:: forces.PNG
+
+   "Radial scrubbing" and the motion of the robotic leg transfers forces down the planarizer boom, causing both vertical and
+   horizontal forces on the planarizer, as well as a torque. This torque is minimized by reducing the height of the planarizer.
 
 Central Pivot Design
 --------------------
 
 Our open-source design for a Central Pivot can be viewed in a public OnShape document: 
 
-TODO: link to onshape
+.. figure:: centralpivot.PNG
+
+   The public OnShape document can be viewed `here <https://cad.onshape.com/documents/13d38c57dee40a129dc0750d/w/a2c92239a21f174507c126a9/e/a6707425b494d93b37562f98?renderMode=0&uiState=62541c5b16304c4d15701151>`_. The "Central Pivot" folder within the OnShape
+   document holds all OnShape design files related to the Central Pivot
 
 This design meets the design requirements:
 
@@ -99,9 +120,11 @@ This design meets the design requirements:
 - It was also verified to be resistant to pushing and twisting loads applied to it. The encoders were measured to have 
   a high enough resolution to measure subtle movements of the robotic leg.
 
-TODO: picture of central pivot
+.. figure:: planarizerforces.PNG
 
-TODO: picture of twisting loads
+   As illustrated, this planarizer design easily accomodates all forces which can be applied on it, while leaving horizontal and 
+   vertical turning motion unimpeded.
+
 
 Robotic Leg Design Choices
 --------------------------
@@ -110,15 +133,23 @@ As stated earlier, a 2D robotic leg which can be extended to include additional 
 our research interests. The Open Dynamic Robot Initiative provides an open-source robotic actuator which can be adapted
 into a 2D robotic leg.
 
-TODO: picture
+.. figure:: roboticleg.PNG
+
+   The robotic leg design, adapted from the Open Dynamic Robotic Initiative actuator parts. The public OnShape document 
+   can be viewed `here <https://cad.onshape.com/documents/13d38c57dee40a129dc0750d/w/a2c92239a21f174507c126a9/e/a6707425b494d93b37562f98?renderMode=0&uiState=62541c5b16304c4d15701151>`_. The "Robotic Leg" folder within the OnShape
+   document holds all OnShape design files related to the Central Pivot.
 
 Conclusion
 ----------
 
-Therefore, we have designed an open-source Central Pivot planarizer, and adapted an open-soruce robotic actuator into a 
+Therefore, we have designed an open-source Central Pivot planarizer, and adapted an open-source robotic actuator into a 
 Robotic Leg, into a Monopod hardware platform which is suitable for our research interests.
 
 
+.. [1] Ahmadi, M and Buehler, M, "Controlled passive dynamic running experiments with the ARL-monopod II", IEEE transactions on robotics, 10/2006, Volume 22, Issue 5
 
+.. [2] Felix Grimminger and Meduri, A and Khadiv, M and Viereck, J and Wuthrich, M and Naveau, M and Berenz, V and Heim, S and Widmaier, F and Flayols, T and Fiene, J and Badri-Sprowitz, A and Righetti, L, "An Open Torque-Controlled Modular Robot Architecture for Legged Locomotion Research", IEEE robotics and automation letters, 04/2020, Volume 5, Issue 2
 
+.. [3] Ismail Uyanik, "Identification of Legged Locomotion via Model-Based and Data-Driven Approaches", ARXIV
 
+.. [4] A. Sato and M. Buehler, "A Planar Hopping Robot with One Actuator: Design, Simulation, and Experimental Results," IEEE/RSJ 17th Int. Conf. on Intelligent Robots and Systems (IROS 2004), pp. 3540-3545, 2004. 
