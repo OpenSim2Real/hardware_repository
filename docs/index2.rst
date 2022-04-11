@@ -70,3 +70,12 @@ lighter and with a smaller footprint. We decided not to use this dedicated PCB d
 PCB and its components, and because space and mass is not a concern for mounting on the Central Pivot.
 
 
+.. toctree::
+  :hidden:
+  :caption: Monopod Firmware
+
+  firmware/monopod_firmware
+  firmware/can_connection
+  firmware/can_protocol
+  firmware/encoder_measurement
+  firmware/dual_motor_control
