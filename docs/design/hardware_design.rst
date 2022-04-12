@@ -1,7 +1,7 @@
 .. _hardware_design:
 
-Monopod Hardware Design
-=======================
+Hardware
+========
 
 Introduction
 ------------
@@ -10,11 +10,14 @@ Having established that a 2D robotic leg constrained by a planarizer device, or 
 research interests, and that we intend to adapt the open-source Open Dynamic Robot Initiative (ODRI) components for
 our robotic leg design, we now describe the design of both the Robotic Leg and the planarizer, or Central Pivot.
 
-Central Pivot Design Choices
-----------------------------
 
-As per the original design requirements, the Central Pivot must be inexpensive and easy to manufacture. Other design
-requirements unique to the Central Pivot are as follows:
+
+Design Requirements
+-------------------
+
+As per the original design requirements, the method of constraining the robot
+must be inexpensive and easy to manufacture. Other design
+requirements unique to the task are as follows:
 
 - It must be able to constrain a 2D robotic leg within a 2D plane.
 
@@ -23,8 +26,11 @@ requirements unique to the Central Pivot are as follows:
 Based on these requirements, there are several possible design patterns which may be suitable for this project: A
 treadmill with gantry crane, vertical test stand, or a central pivot.
 
-Design Choices: Treadmill with Gantry Crane
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Possible Design
+---------------
+
+Treadmill and Crane
++++++++++++++++++++
 
 A rectangular gantry crane holds up the robotic leg, while a treadmill allows the leg to seemingly move on a moving
 surface. While compact, this setup is problematic for several reasons:
@@ -39,8 +45,8 @@ surface. While compact, this setup is problematic for several reasons:
 
    ARL-Monopod II standing on a treadmill. :footcite:`ARLMonopodII`
 
-Design Choices: Vertical Test Stand
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vertical Test Stand
++++++++++++++++++++
 
 A vertical test stand effectively constrains a 2D Robotic Leg to a single dimension, allowing it to move upwards. A
 design for a vertical test stand is already provided by ODRI, as shown here
@@ -53,8 +59,8 @@ However, a vertical test stand overly constrains the robotic leg, and prevents i
 The test stand is only good for measuring the torque applied by the robotic leg actuators, and to attempt simple
 jumping behaviors.
 
-Design Choices: Central Pivot
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Central Pivot
++++++++++++++
 
 A circular planarizer, or Central Pivot, constrains a 2D robotic leg to move along the boundary of a large, horizontal
 circle on the ground. To the robotic leg, moving along this large circle approximates being constrained in a straight
@@ -100,7 +106,7 @@ decided to design an open-source Central Pivot.
    horizontal forces on the planarizer, as well as a torque. This torque is minimized by reducing the height of the planarizer.
 
 Central Pivot Design
---------------------
+++++++++++++++++++++
 
 Our open-source design for a Central Pivot can be viewed in a public OnShape document:
 
@@ -112,10 +118,10 @@ Our open-source design for a Central Pivot can be viewed in a public OnShape doc
 This design meets the design requirements:
 
 - This Central Pivot design can be constructed completely out of off-shelf electronics, 3D-printed parts, and waterjet-cut
-   aluminum plates at a cost of less than CAD$1000.
+  aluminum plates at a cost of less than CAD$1000.
 
 - It was designed to reduce radial srubbing to a minimum by maximising the radial distance of the
-   robotic leg from the center of the central pivot, and by minimising the height of the central pivot.
+  robotic leg from the center of the central pivot, and by minimising the height of the central pivot.
 
 - It was also verified to be resistant to pushing and twisting loads applied to it. The encoders were measured to have
   a high enough resolution to measure subtle movements of the robotic leg.
@@ -126,8 +132,8 @@ This design meets the design requirements:
    vertical turning motion unimpeded.
 
 
-Robotic Leg Design Choices
---------------------------
+Leg Design
+----------
 
 As stated earlier, a 2D robotic leg which can be extended to include additional degrees of freedom is most suitable for
 our research interests. The Open Dynamic Robot Initiative provides an open-source robotic actuator which can be adapted

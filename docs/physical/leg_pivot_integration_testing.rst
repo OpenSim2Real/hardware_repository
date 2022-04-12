@@ -1,7 +1,7 @@
 .. _leg_pivot_integration_testing:
 
-Monopod Integration Testing
-===========================
+Integration Testing
+===================
 
 Introduction
 ------------

@@ -1,6 +1,6 @@
 .. _monopod_resources:
 
-Further Readings & Resources
+Further Resources
 ============================
 
 Introduction

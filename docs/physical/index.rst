@@ -1,7 +1,7 @@
 .. _building_the_robot:
 
-Building The Monopod
-====================
+Hardware
+========
 
 Introduction
 ------------
@@ -11,12 +11,6 @@ This section describes the process of assembling and testing our hardware platfo
 A major component of the OpenSim2Real project is the development of a physical, hardware platform so that
 models running in simulation can be applied to the physical world. The hardware platform, called the Monopod,
 has been completely based around prior work by the `Open Dynamic Robot Initiative <https://open-dynamic-robot-initiative.github.io>`_ (ODRI).
-
-The basic flow of information for the monopod is shown by the system diagram below.
-
-.. figure:: fulldiagram.png
-
-  ..
 
 Introduction to Assembly/Testing Process
 ----------------------------------------
@@ -84,12 +78,12 @@ This guide comprises of the following sections in order:
   :hidden:
   :caption: Building The Monopod
 
-  physical/build_requirements
-  physical/bom
-  physical/build_instructions_leg
-  physical/basic_tests_leg
-  physical/build_instructions_pivot
-  physical/basic_tests_pivot
-  physical/leg_pivot_integration
-  physical/leg_pivot_integration_testing
+  build_requirements
+  bom
+  build_instructions_leg
+  basic_tests_leg
+  build_instructions_pivot
+  basic_tests_pivot
+  leg_pivot_integration
+  leg_pivot_integration_testing
   monopod_resources
