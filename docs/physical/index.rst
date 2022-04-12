@@ -1,4 +1,4 @@
-.. _building_the_robot:
+.. _robot_hardware:
 
 Hardware
 ========
@@ -76,7 +76,7 @@ This guide comprises of the following sections in order:
 
 .. toctree::
   :hidden:
-  :caption: Building The Monopod
+  :caption: Hardware
 
   build_requirements
   bom

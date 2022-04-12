@@ -86,7 +86,7 @@ Our team has decided to build a 2D Hopper and a corresponding constraining devic
 
 .. toctree::
   :hidden:
-  :caption: Monopod Design
+  :caption: Design Decisions
 
   hardware_design
   electrical_design

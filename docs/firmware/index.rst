@@ -72,7 +72,7 @@ PCB and its components, and because space and mass is not a concern for mounting
 
 .. toctree::
   :hidden:
-  :caption: Monopod Firmware
+  :caption: Firmware
 
   monopod_firmware
   can_connection
