@@ -37,7 +37,7 @@ surface. While compact, this setup is problematic for several reasons:
 
 .. figure:: design_images/treadmill.PNG
 
-   ARL-Monopod II standing on a treadmill. [1]_
+   ARL-Monopod II standing on a treadmill. :footcite:`ARLMonopodII`
 
 Design Choices: Vertical Test Stand
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,7 +47,7 @@ design for a vertical test stand is already provided by ODRI, as shown here
 
 .. figure:: design_images/teststand.PNG
 
-   2D robotic leg standing on a teststand. [2]_
+   2D robotic leg standing on a teststand. :footcite:`grimminger2020open`
 
 However, a vertical test stand overly constrains the robotic leg, and prevents it from exhibiting interesting behavior.
 The test stand is only good for measuring the torque applied by the robotic leg actuators, and to attempt simple
@@ -65,11 +65,11 @@ decided to design an open-source Central Pivot.
 
 .. figure:: design_images/planarizer.PNG
 
-   An example of a planarizer used to constrain a small robotic leg. [3]_
+   An example of a planarizer used to constrain a small robotic leg. :footcite:`uyanikLegged`
 
 .. figure:: design_images/planarizer_2.PNG
 
-   Another example of a planarizer used to constrain a robotic leg. [4]_
+   Another example of a planarizer used to constrain a robotic leg. :footcite:`BuehlerPlanar`
 
 3 major factors complicate the design of the Central Pivot:
 
@@ -147,10 +147,4 @@ Therefore, we have designed an open-source Central Pivot planarizer, and adapted
 Robotic Leg, into a Monopod hardware platform which is suitable for our research interests.
 
 
-.. [1] Ahmadi, M and Buehler, M, "Controlled passive dynamic running experiments with the ARL-monopod II", IEEE transactions on robotics, 10/2006, Volume 22, Issue 5
-
-.. [2] Felix Grimminger and Meduri, A and Khadiv, M and Viereck, J and Wuthrich, M and Naveau, M and Berenz, V and Heim, S and Widmaier, F and Flayols, T and Fiene, J and Badri-Sprowitz, A and Righetti, L, "An Open Torque-Controlled Modular Robot Architecture for Legged Locomotion Research", IEEE robotics and automation letters, 04/2020, Volume 5, Issue 2
-
-.. [3] Ismail Uyanik, "Identification of Legged Locomotion via Model-Based and Data-Driven Approaches", ARXIV
-
-.. [4] A. Sato and M. Buehler, "A Planar Hopping Robot with One Actuator: Design, Simulation, and Experimental Results," IEEE/RSJ 17th Int. Conf. on Intelligent Robots and Systems (IROS 2004), pp. 3540-3545, 2004.
+  .. footbibliography::
